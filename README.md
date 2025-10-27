@@ -35,3 +35,9 @@ Suricata can:
 sudo apt update
 sudo apt install -y suricata
 
+sudo systemctl enable suricata
+sudo systemctl start suricata
+
+sudo systemctl status suricata
+
+'''
